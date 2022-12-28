@@ -1,0 +1,130 @@
+body{
+    background:#000;
+    overflow: hidden;
+}
+.square{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+} 
+.square span{
+    width:50px;
+    height:50px;
+    background:rgb(49, 48, 48);
+    margin:2px;
+    display:block;
+    -webkit-transition: 1.5s;
+    -o-transition: 1.5s;
+    transition: 1.5s;
+}
+.square span:hover{
+    background-color:#0f0 !important;
+    -webkit-transition: 0s;
+    -o-transition: 0s;
+    transition: 0s;
+}
+.sign-area{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background:rgba(18, 18, 18, 0.7);
+}
+.form-area{
+    border:1px solid #0f0;
+    padding:100px
+}
+.form-area form h2{
+    font-size:25px;
+    text-transform: capitalize;
+    margin-bottom:20px;
+    text-align: center;
+    color:#0f0
+}
+.form-area form .email{
+    position:relative;
+}
+.form-area form .email input{
+    width:100%;
+    padding:4px;
+    margin-bottom:20px;
+    color:#0f0;
+    background:#3f3e3e;
+    border:1px solid #0f0;
+}
+.form-area form .email label{
+    position: absolute;
+    top:0;
+    left:0;
+    -webkit-transform: translate(30%, 50%);
+    -ms-transform: translate(30%, 50%);
+    transform: translate(30%, 50%);
+    font-size:13px;
+    color:#0f0
+}
+.form-area form .pass{
+    position:relative;
+}
+.form-area form .pass label{
+    position: absolute;
+    top:0;
+    left:0;
+    -webkit-transform: translate(20%, 50%);
+    -ms-transform: translate(20%, 50%);
+    transform: translate(20%, 50%);
+    font-size:13px;
+    color:#0f0
+}
+.form-area form .pass input{
+    width:100%;
+    padding:4px;
+    margin-bottom:20px;
+    color:#0f0;
+    background:#3f3e3e;
+    border:1px solid #0f0;
+}
+.form-area form .link{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom:20px
+}
+.form-area form .link a:nth-child(2){
+    font-size: 14px;
+}
+.form-area form .link a{
+    color:#0f0
+}
+.form-area form .login-btn{
+    text-align: center;
+}
+.form-area form .login-btn input{
+    font-size:15px;
+    color:#000;
+    padding:3px 90px;
+    background:-webkit-gradient(linear, left top, left bottom, from(#0f0), to(rgb(0, 255, 179)));
+    background:-o-linear-gradient(#0f0, rgb(0, 255, 179));
+    background:linear-gradient(#0f0, rgb(0, 255, 179));
+    border-radius: 5px;
+    border:none;
+}
+.form-area form .login-btn input:hover{
+    background:-webkit-gradient(linear, left top, left bottom, from(rgb(0, 255, 179)), to(#0f0));
+    background:-o-linear-gradient(rgb(0, 255, 179), #0f0);
+    background:linear-gradient(rgb(0, 255, 179), #0f0);
+}

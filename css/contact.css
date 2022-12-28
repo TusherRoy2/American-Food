@@ -1,0 +1,67 @@
+/* =-=-=-home page nav=-=-=- */
+nav .american-nav{
+    z-index: 1;
+}
+
+/*-- -=-=-=-=-=-=-=-=-=-=--=-
+    veer-map area 
+=-=--=-=-=-=-=-=--=-=-=-=- */
+.veer-map-area{
+    position: relative;
+}
+.veer-map-area iframe{
+    width:100%;
+    height:650px;
+}
+.veer-form{
+    width:80%;
+    padding:70px 120px 30px;
+    background:rgba(0,0,0,0.7);
+    border-radius: 15px 0 15px 0;
+    margin:0 auto;
+    position: absolute;
+    top:16%;
+    left:9%;
+}
+.veer-form form{
+    width:700px;
+    margin: 0 auto;
+}
+.veer-form form h4{
+    font-size:20px;
+    color:rgb(52, 131, 52);
+    text-transform: uppercase;
+    margin-bottom:20px
+}
+.veer-form form .name-email{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.veer-form form .name-email input{
+    width:345px;
+    padding:5px 20px;
+    color:rgb(52, 131, 52);
+    margin-bottom:10px;
+    border:1px solid #67656d;
+    background:#211e2d;
+}
+.veer-form form .mass input{
+    width:700px;
+    padding:5px 20px 155px;
+    color:rgb(52, 131, 52);
+    margin-bottom:30px;
+    border:1px solid #67656d;
+    background:#211e2d;
+}
+.veer-form form a{
+    display:inline block;
+    padding:10px 20px;
+    background-color: rgb(52, 131, 52);
+    border-radius: 5px;
+    color:#fff;
+    font-size:16px;
+}

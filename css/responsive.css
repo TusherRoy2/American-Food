@@ -1,0 +1,1082 @@
+@media (max-width:1200px){
+    .american-hero-text h2::after{
+        width:320px;
+    }
+    .american-hero-button a.hero-btn{
+        padding:20px 40px;
+        font-size:18px;
+    }
+    .american-hero-button a.hero-arrow{
+        padding:20px 20px;
+        font-size:18px;
+    }
+    /* american-hero area end */
+    .american-about .let-food h2{
+        font-size: 40px;
+    }
+    .american-about .let-food p{
+        font-size: 20px;
+    }
+    .american-about .veno-box{
+        width:390px;
+        height:350px;
+    }
+    .american-about .veno-box::before{
+        width:170px;
+    }
+    .american-about .veno-box::after{
+        height:170px;
+    }
+    .american-about .veno-box i{
+        font-size:20px;
+    }
+    /* american-about end */
+    
+    .ser-head .ser-con-head h2{
+        font-size: 42px;
+    }
+    .ser-head .ser-con-head h3{
+        font-size: 42px;
+    }
+    .ser-head span{
+        font-size:22px;
+    }
+    .ser-head a{
+        font-size: 22px;
+        padding:18px 36px;
+    }
+    /* american-service end */
+    .american-pricing{
+        padding:70px 0;
+    }
+    .pri-top h4{
+        font-size:35px;
+    }
+    .pri-top h2{
+        font-size: 48px;
+    }
+    .pri-top p{
+        font-size: 18px;
+        top:15px;
+        right:-60px;
+    }
+    .pri-btm p{
+        font-size:25px;
+    }
+    .pri-btm a{
+        font-size: 21px;
+        margin-top:30px;
+        padding:5px 20px;
+    }
+    /* american-pricing end */
+    .spe-sec p{
+        width:68%;
+        margin-left:33%;
+    }
+    /* american-special-2 end */
+    
+    .blog-main .blog-hover h4{
+        font-size: 22px;
+        margin-bottom:15px;
+    }
+    .blog-main .blog-hover p{
+        font-size: 17px;
+        margin-bottom:20px;
+    }
+    .blog-main .blog-hover a{
+        padding:7px 15px;
+        border-radius:15px 0 15px 0;
+        font-size: 16px;
+    } 
+    /* contact page  */
+    .contact-map .veer-form form{
+        width:600px;
+        margin: 0 auto;
+    }
+    .contact-map .veer-form form .name-email input{
+        width:295px;
+    }
+    .contact-map .veer-form form .mass input{
+        width:600px;
+    }
+    
+}
+
+@media (max-width:991px){
+    header{
+        position: relative;
+    }
+    header .menu {
+        display:none;
+        position:absolute;
+        top:105%;
+        right:5px;
+        background:#3d5f00;
+        width:170px;
+        height:60px;
+        text-align: center;
+        border-radius: 10px 0 10px 0;
+        font-size: 17px;
+    }
+    header .head-main .head-res-icon{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack:end;
+            -ms-flex-pack:end;
+                justify-content:flex-end;
+    }
+    header .head-main .head-res-icon .fa-bars{
+        cursor:pointer
+    }
+    header .search-bar form input{
+        width:150px
+    }
+    /* header end */
+    nav .american-nav ul li{
+        margin-right:30px;
+    }
+    nav .american-nav ul li a{
+        font-size:19px;
+    }
+    /* nav end */
+    .american-hero-text h1{
+        font-size: 60px;
+    }
+    .american-hero-text h2{
+        font-size: 42px;
+    }
+    .american-hero-text p{
+        font-size:18px;
+    }
+    .american-hero-button a{
+        border-radius: 20px 0 20px 0;
+    }
+    .american-hero-button a.hero-btn{
+        padding:20px 40px;
+        font-size:18px;
+    }
+    .american-hero-button a.hero-arrow{
+        padding:20px 20px;
+        font-size:18px;
+    }
+    .american-hero-text h2::after{
+        width:270px;
+    }
+    /* american hero area end */
+    .american-about{
+        margin:0 auto;
+    }
+    .let-food{
+        margin:0 auto 120px;
+    }
+    .cmn-text h1{
+        font-size: 90px;
+    }
+    .cmn-text h2{
+        font-size: 40px;
+        top:18%;
+    }
+    .cmn-text p{
+        font-size: 22px;
+        width:90%;
+        margin:0 auto 100px;
+    }
+    .let-food .american-hero-button{
+        margin-bottom:80px;
+    }
+    .american-about .let-food h2{
+        width:80%;
+    }
+    .american-about .let-food h2.second{
+        margin-top:40px;
+    }
+    .american-about .let-food p{
+        font-size: 20px;
+        width:70%;
+    }
+    .american-about .veno-box{
+        width:420px;
+        height:380px;
+    }
+    /* american-about end */
+    .ser-head .ser-con-head h2{
+        font-size: 42px;
+    }
+    .ser-head .ser-con-head h3{
+        font-size: 42px;
+    }
+    .ser-head span{
+        font-size:22px;
+    }
+    .ser-head a{
+        font-size: 22px;
+        padding:18px 36px;
+        border-radius:20px 0 20px 0;
+    }
+    .ser-head img{
+        width:70%;
+        margin:50px 0 80px;
+    }
+    .ser-head img:last-child{
+        margin:50px 0 0;
+    }
+    /* american-service area */
+    .american-special h4{
+        font-size: 30px;
+    }
+    .american-special h1{
+        font-size: 55px;
+    }
+    .american-special h3{
+        font-size: 30px;
+    }
+    .american-special p{
+        width:75%;
+        font-size: 22px;
+    }
+    /* american-special end */
+    .pri-top{
+        width:50%;
+        margin:0 auto;
+    }
+    .pri-btm{
+        width:50%;
+        margin:0 auto 50px;
+    }
+    /* american-pricing end */
+    .spe-sec p{
+        width:83%;
+        margin-left:15%;
+        font-size: 22px;
+    }
+    /* american-special-2 end */
+    .blog-main .blog-hover{
+        padding:12px 10px;
+    }
+    .blog-main .blog-hover h4{
+        font-size: 19px;
+        margin-bottom:10px;
+    }
+    .blog-main .blog-hover p{
+        font-size: 15px;
+        margin-bottom:12px;
+        line-height: 1.2;
+    }
+    .blog-main .blog-hover a{
+        padding:5px 10px;
+        border-radius:10px 0 10px 0;
+        font-size: 14px;
+    }
+    /* american-blog end */
+    footer{
+        background-attachment: fixed;
+    }
+    /* contact page */
+    .contact-map .veer-form{
+        width:90%;
+        margin:0 auto;
+        padding:50px 50px 20px;
+    }
+    .contact-map .veer-form{
+        width:80%;
+        margin:0 auto;
+        padding:50px 20px 20px;
+    }
+    .contact-map .veer-form form{
+        width:100%;
+        margin: 0 auto;
+    }
+    .contact-map .veer-form form .name-email{
+        display: block;
+    }
+    .contact-map .veer-form form .name-email input{
+        width:100%;
+    }
+    .contact-map .veer-form form .mass input{
+        width:100%;
+    }
+
+}
+
+@media (max-width:768px){
+    .american-hero-text h1{
+        font-size: 55px;
+    }
+    .american-hero-text h2{
+        font-size: 37px;
+    }
+    .american-hero-text p{
+        font-size:16px;
+        width:50%;
+    }
+    .american-hero-button a{
+        border-radius: 20px 0 20px 0;
+    }
+    .american-hero-button a.hero-btn{
+        padding:15px 30px;
+        font-size:16px;
+    }
+    .american-hero-button a.hero-arrow{
+        padding:15px 15px;
+        font-size:16px;
+    }
+    .american-hero-text h2::after{
+        width:240px;
+    }
+    /* american hero area end */
+    .american-about{
+        width:80%;
+        margin:auto;
+    }
+    .cmn-text h1{
+        font-size: 80px;
+    }
+    .cmn-text h2{
+        font-size: 35px;
+        top:16%;
+    }
+    .cmn-text p{
+        font-size: 20px;
+        width:100%;
+        margin:0 auto 80px;
+    }
+    .let-food{
+        margin:0 auto 50px;
+    }
+    /* american-about end */
+
+    .american-about .let-food h2{
+        width:90%;
+    }
+    .american-about .let-food p{
+        font-size: 19px;
+        width:95%;
+    }
+    .american-about .veno-box::before{
+        width:150px;
+    }
+    .american-about .veno-box::after{
+        height:150px;
+    }
+    .american-about .veno-box{
+        width:370px;
+        height:330px;
+    }
+    /* american-about end */
+    .ser-head .ser-con-head h2{
+        font-size: 35px;
+    }
+    .ser-head .ser-con-head h3{
+        font-size: 35px;
+    }
+    .ser-head span{
+        font-size:20px;
+    }
+    .ser-head a{
+        font-size: 20px;
+        padding:15px 30px;
+    }
+    .ser-head img{
+        width:80%;
+    }
+    /* american-service area */
+    .american-special h4{
+        font-size: 28px;
+    }
+    .american-special h1{
+        font-size: 50px;
+    }
+    .american-special h3{
+        font-size: 28px;
+        letter-spacing: 12px;
+    }
+    .american-special p{
+        width:95%;
+        font-size: 20px;
+    }
+    /* american-speacial end */
+    
+    .pri-top{
+        width:50%;
+        margin:0 auto;
+        padding: 20px;
+    }
+    .pri-top h4{
+        font-size:30px;
+    }
+    .pri-top h2{
+        font-size: 40px;
+    }
+    .pri-top p{
+        font-size: 17px;
+    }
+    .pri-btm{
+        width:50%;
+        margin:0 auto 50px;
+    }
+    .pri-btm p{
+        font-size:22px;
+    }
+    .pri-btm a{
+        font-size: 20px;
+        margin-top:20px;
+    }
+    /* american-pricing end */
+    .spe-sec p{
+        width:102%;
+        margin-left:0;
+        font-size: 20px;
+    }
+    /* american-special-2 end */
+    .blog-main{
+        margin-bottom: 30px;
+    }
+    .blog-main .blog-img{
+        width:70%;
+        height:auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .blog-main .blog-hover{
+        padding:50px 30px;
+        width:100%;
+        height:100%;
+    }
+    .blog-main .blog-hover h4{
+        font-size: 28px;
+        margin-bottom:25px;
+    }
+    .blog-main .blog-hover p{
+        font-size: 20px;
+        margin-bottom:30px;
+    }
+    .blog-main .blog-hover a{
+        padding:10px 20px;
+        background:#3d5f00;
+        color:#fff;
+        border-radius:15px 0 15px 0;
+        font-size: 17px;
+    }
+    /* american-blog area */
+    footer{
+        padding:50px 0;
+    }
+    .footer-logo{
+        width:100px;
+    }
+    footer h2{
+        font-size:45px;
+    }
+    footer p{
+        font-size: 28px;
+    }
+    footer h4{
+        font-size: 36px;
+    }
+    .footer-icon{
+        margin-bottom:40px;
+    }
+    .footer-icon i{
+        width:30px;
+        height:30px;
+        font-size:18px;
+    }
+    /* login-page */
+    body .square span{
+        width:40px;
+        height:40px;
+    }
+    .sign-area .form-area{
+        padding:70px
+    }
+    .sign-area .form-area form h2{
+        font-size:22px;
+        margin-bottom:15px;
+    }
+    .sign-area .form-area form .link{
+        font-size: 12px;
+    }
+    .sign-area .form-area form .link a:nth-child(2){
+        font-size: 13px;
+    }
+    /* contact page */
+    .contact-map .veer-form form a{
+        padding:8px 16px;
+        font-size:14px;
+    }
+}
+
+@media (max-width:700px){
+    .contact-map .veer-form form .mass input{
+        padding:5px 20px 90px;
+        margin-bottom:30px;
+    }
+}
+
+@media (max-width:575px){
+    header .logo{
+        width:60px;
+        height:50px;
+    }
+    header .search-bar form input{
+        font-size:14px;
+    }
+    header .search-bar .bar-icon i{
+        font-size:14px;
+    }
+    header .menu .menu-icon i{
+        font-size: 17px;
+    }
+    header .head-main .head-res-icon{
+        font-size:17px;
+    }
+    header .search-bar form input{
+        width:110px
+    }
+    /* header end */
+    nav .american-nav ul li{
+        margin-right:20px;
+    }
+    nav .american-nav ul li a{
+        font-size:17px;
+    }
+    /* nav end */
+    .cmn-text h1{
+        font-size: 70px;
+    }
+    .cmn-text h2{
+        font-size: 30px;
+        top:15%;
+    }
+    .cmn-text p{
+        font-size: 18px;
+        width:90%;
+        margin:0 auto 60px;
+    }
+    /* american-about end */
+    .american-about{
+        padding-top:80px;
+    }
+    .american-about .let-food h2{
+        font-size: 30px;
+        width:100%;
+    }
+    .american-about .let-food p{
+        font-size: 18px;
+        width:100%;
+    }
+    .american-about .veno-box::before{
+        width:130px;
+    }
+    .american-about .veno-box::after{
+        height:130px;
+    }
+    .american-about .veno-box{
+        width:320px;
+        height:280px;
+    }
+    .american-about .veno-box i{
+        font-size:18px;
+    }
+    /* american-about end */
+    .american-service{
+        padding:0 0 20px;
+    }
+    .ser-head .ser-con-head h2{
+        font-size: 30px;
+    }
+    .ser-head .ser-con-head h3{
+        font-size: 30px;
+    }
+    .ser-head span{
+        font-size:18px;
+    }
+    .ser-head a{
+        font-size: 18px;
+        padding:12px 25px;
+    }
+    .ser-head img{
+        width:70%;
+    }
+    /* american-service area */
+    
+    .american-special h4{
+        font-size: 26px;
+    }
+    .american-special h1{
+        font-size: 46px;
+    }
+    .american-special h3{
+        font-size: 26px;
+        letter-spacing: 10px;
+    }
+    .american-special p{
+        width:88%;
+        font-size: 18px;
+    }
+    /* american-special end */
+    
+    .pri-top h4{
+        font-size:25px;
+    }
+    .pri-top h2{
+        font-size: 35px;
+    }
+    .pri-top p{
+        font-size: 16px;
+    }
+    .pri-btm p{
+        font-size:20px;
+    }
+    .pri-btm a{
+        font-size: 18px;
+        margin-top:15px;
+    }
+    /* american-pricing end */
+    .spe-sec p{
+        width:87%;
+        font-size: 18px;
+        margin-left: 13%;
+    }
+    /* american-special-2 end */
+    .blog-main .blog-img{
+        width:70%;
+        height:auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .blog-main .blog-hover{
+        padding:30px 20px;
+        width:100%;
+        height:100%;
+    }
+    .blog-main .blog-hover h4{
+        font-size: 28px;
+        margin-bottom:25px;
+    }
+    .blog-main .blog-hover p{
+        font-size: 20px;
+        margin-bottom:30px;
+    }
+    .blog-main .blog-hover a{
+        padding:10px 20px;
+        background:#3d5f00;
+        color:#fff;
+        border-radius:15px 0 15px 0;
+        font-size: 17px;
+    }
+    /* american-blog end */
+    footer{
+        padding:50px 0;
+    }
+    .footer-logo{
+        width:90px;
+    }
+    footer h2{
+        font-size:40px;
+    }
+    footer p{
+        font-size: 26px;
+    }
+    footer h4{
+        font-size: 32px;
+    }
+    .footer-icon{
+        margin-bottom:30px;
+    }  
+    /* contact page */
+    .contact-map .veer-form form a{
+        padding:5px 10px;
+        font-size:12px;
+    }
+}
+
+@media (max-width:500px){
+    .blog-main .blog-hover{
+        padding:10% 10%;
+    }
+    .blog-main .blog-hover h4{
+        font-size: 25px;
+        margin-bottom:20px;
+    }
+    .blog-main .blog-hover p{
+        font-size: 17px;
+        margin-bottom:20px;
+        line-height: 1.2;
+    }
+    .blog-main .blog-hover a{
+        padding:8px 15px;
+        border-radius:15px 0 15px 0;
+        font-size: 15px;
+    }
+    /* login-page */
+    .sign-area .form-area{
+        padding:50px
+    }
+    .sign-area .form-area form h2{
+        font-size:20px;
+        margin-bottom:10px;
+    }
+    /* contact page */
+    .contact-map .veer-form form h4{
+        font-size:17px;
+    }
+}
+
+@media (max-width:480px){
+    header{
+        position: relative;
+    }
+    .search-bar{
+        display:none;
+        background-color: #3d5f00;
+        width:120px;
+        height:50px;
+        color:#fff;
+        position: absolute;
+        top:30%;
+        left:2%;
+    }
+    .search-bar input[type="text"]{
+        font-size:11px;
+        padding-right:25px;
+    }
+    header .head-main .ser-res-icon{
+        display:inline-block;
+        font-size: 14px;
+    }
+    header .head-main .bar-icon-2{
+        display:inline;
+    }
+    /* header end */
+    nav{
+        position: relative;
+    }
+    nav .american-nav{
+        display: block;
+        position:absolute;
+        top:-1500%;
+        left:0;
+        right:0;
+        padding:15px 0;
+    }
+    nav .american-nav .fa-times{
+        display:block;
+        position:absolute;
+        top:5%;
+        right:5%;
+        color:#3d5f00;
+    }
+    nav .american-nav .fa-times:hover{
+        color:red
+    }
+    nav .american-nav ul{
+        display:block;
+    }
+    nav .american-nav ul li{
+        margin-bottom:10px;
+    }
+    nav .american-nav ul li a{
+        font-size:15px;
+    }
+    nav .nav-icon{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    nav .nav-icon .fa-ellipsis-h{
+        display: inline;
+        cursor: pointer;
+    }
+    /* nav end */
+    .american-hero-text h1{
+        font-size: 48px;
+    }
+    .american-hero-text h2{
+        font-size: 30px;
+    }
+    .american-hero-text p{
+        font-size:14px;
+    }
+    .american-hero-button a{
+        border-radius: 20px 0 20px 0;
+    }
+    .american-hero-button a.hero-btn{
+        padding:15px 30px;
+        font-size:14px;
+    }
+    .american-hero-button a.hero-arrow{
+        padding:15px 15px;
+        font-size:14px;
+    }
+    .american-hero-text h2::after{
+        width:195px;
+    }
+    /* american hero area end */
+    
+    .cmn-text h1{
+        font-size: 50px;
+    }
+    .cmn-text h2{
+        font-size: 25px;
+        top:12%;
+    }
+    .cmn-text p{
+        font-size: 16px;
+    }
+    /* american-about end */
+    .american-about .let-food h2{
+        font-size: 25px;
+    }
+    .american-about .let-food p{
+        font-size: 16px;
+    }
+    .american-about .veno-box::before{
+        width:110px;
+    }
+    .american-about .veno-box::after{
+        height:110px;
+    }
+    .american-about .veno-box{
+        width:270px;
+        height:230px;
+    }
+    .american-about .veno-box i{
+        font-size:15px;
+    }
+    /* american-about end */
+
+    .ser-head .ser-con-head h2{
+        font-size: 28px;
+    }
+    .ser-head .ser-con-head h3{
+        font-size: 28px;
+    }
+    .ser-head span{
+        font-size:17px;
+    }
+    .ser-head a{
+        font-size: 17px;
+        padding:10px 20px;
+    }
+    /* american-service area */
+    .american-special h4{
+        font-size: 23px;
+    }
+    .american-special h1{
+        font-size: 40px;
+    }
+    .american-special h3{
+        font-size: 23px;
+        letter-spacing: 8px;
+    }
+    .american-special p{
+        width:88%;
+        font-size: 16px;
+    }
+    /* american-special end */
+    .pri-top{
+        width:70%;
+    }
+    .pri-top h4{
+        font-size:24px;
+    }
+    .pri-top h2{
+        font-size: 32px;
+    }
+    .pri-top p{
+        font-size: 13px;
+    }
+    .pri-btm{
+        width:70%;
+    }
+    .pri-btm p{
+        font-size:16px;
+    }
+    .pri-btm a{
+        font-size: 15px;
+        margin-top:10px;
+    }
+    /* american-pricing-end */
+    .spe-sec p{
+        width:100%;
+        font-size: 16px;
+        margin-left: 0;
+    }
+     
+    .blog-main .blog-hover{
+        padding:10% 10%;
+    }
+    .blog-main .blog-hover h4{
+        font-size: 22px;
+        margin-bottom:10px;
+    }
+    .blog-main .blog-hover p{
+        font-size: 17px;
+        margin-bottom:12px;
+    }
+    .blog-main .blog-hover a{
+        padding:8px 15px;
+        border-radius:15px 0 15px 0;
+        font-size: 14px;
+    }
+    /* american-blog end */
+    
+    .footer-logo{
+        width:80px;
+    }
+    footer h2{
+        font-size:35px;
+    }
+    footer p{
+        font-size: 22px;
+    }
+    footer h4{
+        font-size: 28px;
+    }
+    .footer-icon{
+        margin-bottom:25px;
+    }
+    
+}
+
+@media (max-width:450px){ 
+    .blog-main .blog-hover{
+        padding:8% 8%;
+    }
+    .blog-main .blog-hover h4{
+        font-size: 20px;
+    }
+    .blog-main .blog-hover p{
+        font-size: 16px;
+    }
+    .blog-main .blog-hover a{
+        padding:6px 12px;
+    }
+    /* contact page */
+    .contact-map .veer-form form .mass input{
+        padding:5px 20px 60px;
+        margin-bottom:30px;
+    }
+}
+
+@media (max-width:380px){
+    .american-hero-text h1{
+        font-size: 46px;
+    }
+    .american-hero-button a{
+        border-radius: 12px 0 12px 0;
+    }
+    .american-hero-button a.hero-btn{
+        padding:12px 20px;
+        font-size:13px;
+    }
+    .american-hero-button a.hero-arrow{
+        padding:12px 12px;
+        font-size:13px;
+    }
+    /* american-hero end */
+    .cmn-text h1{
+        font-size: 45px;
+    }
+    .cmn-text h2{
+        font-size: 25px;
+        top:11%;
+    }
+    .cmn-text p{
+        font-size: 15px;
+        width:100%;
+        margin:0 auto 50px;
+    }
+    /* american-about end */
+    .american-about .let-food h2{
+        font-size: 25px;
+    }
+    .american-about .let-food p{
+        font-size: 15px;
+    }
+    .american-about .veno-box{
+        width:240px;
+        height:200px;
+    }
+    .american-about .veno-box::before{
+        width:100px;
+    }
+    .american-about .veno-box::after{
+        height:100px;
+    }
+    .american-about .veno-box i{
+        font-size:13px;
+    }
+    /* american-about end */
+    .ser-head .ser-con-head h2{
+        font-size: 25px;
+    }
+    .ser-head .ser-con-head h3{
+        font-size:25px;
+    }
+    .ser-head span{
+        font-size:15px;
+    }
+    .ser-head a{
+        font-size: 15px;
+        padding:8px 18px;
+    }
+    /* american-service area */
+    
+    .american-special h4{
+        font-size: 20px;
+    }
+    .american-special h1{
+        font-size: 30px;
+    }
+    .american-special h3{
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .american-special p{
+        width:100%;
+        font-size: 15px;
+    }
+    /* american-special end */
+    .pri-top{
+        width:80%;
+    }
+    .pri-btm{
+        width:80%;
+    }
+    /* american-pricing end */
+    .blog-main .blog-hover{
+        padding:4% 5%;
+    }
+    .blog-main .blog-hover h4{
+        font-size: 19px;
+    }
+    .blog-main .blog-hover p{
+        font-size: 15px;
+    }
+    .blog-main .blog-hover a{
+        padding:5px 10px;
+        border-radius:10px 0 10px 0;
+        font-size: 13px;
+    }
+    /* login-page */
+    .sign-area .form-area{
+        padding:30px
+    }
+    .sign-area .form-area form h2{
+        font-size:20px;
+        margin-bottom:10px;
+    }
+    /* contact page */
+    .contact-map .veer-form form .mass input{
+        padding:5px 20px 40px;
+    }
+}

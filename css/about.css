@@ -1,0 +1,9 @@
+/* =-=-=-home page nav=-=-=- */
+nav .american-nav{
+    z-index: 1;
+}
+/*  */
+.top-button .fa-comments{
+    font-size: 40px;
+    color:rgba(0, 255, 0, 0.678)
+}
